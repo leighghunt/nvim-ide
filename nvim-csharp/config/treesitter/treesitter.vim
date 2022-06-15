@@ -18,7 +18,7 @@ lua << EOF
       "html",
       "javascript",
       "json",
-      "csharp",
+      "c_sharp",
       "yaml"
     },
   }

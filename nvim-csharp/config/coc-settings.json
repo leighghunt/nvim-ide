@@ -6,7 +6,7 @@
     "json",
     "sh",
     "sql",
-    "csharp",
+    "cs",
     "yaml"
   ],
   "codeLens.enable": true,
