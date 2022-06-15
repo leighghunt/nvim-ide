@@ -1,9 +1,13 @@
-# Docker file for Neovim Typescript development.
+# Docker file for Neovim CSharp development.
 #
 # @author Leigh Hunt
 
 # Base Neovim image.
 FROM mashmb/nvim:dev
+
+ENV LANG en_NZ.UTF-8
+ENV LANGUAGE en_NZ:en
+ENV TZ=Pacific/Auckland
 
 # Install Typescript SDK.
 RUN apt-get update && apt-get -y install watchman wget

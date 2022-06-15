@@ -6,9 +6,9 @@
 FROM debian:sid-20211220
 
 # Set image locale.
-ENV LANG en_NZ.UTF-8
-ENV LANGUAGE en_NZ:en
-ENV TZ=Pacific/Auckland
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV TZ=Europe/Warsaw
 
 # Expose some ports to host by default.
 EXPOSE 8080 8081 8082 8083 8084 8085
