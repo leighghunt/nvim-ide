@@ -52,6 +52,10 @@ services:
       - [path_to_projects]:/root/workspace
 ```
 
+```shell
+docker-compose run mashmb/nvim:[tag] bash
+```
+
 ### nvim
 
 Base Neovim image. Software installed:
